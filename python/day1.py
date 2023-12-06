@@ -60,7 +60,7 @@ def run_day1(file: str) -> int:
 
 
 def main():
-    print(run_day1('data/day1.txt'))
+    print(run_day1('../data/day1.txt'))
 
 
 if __name__ == '__main__':
