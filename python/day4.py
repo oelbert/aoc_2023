@@ -1,6 +1,3 @@
-import numpy as np
-
-
 def card_wins(card: str) -> int:
     nwins = 0
     vals = card.split(": ")[1]
