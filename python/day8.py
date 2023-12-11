@@ -32,7 +32,6 @@ def run_day8(instructions, nodes):
     ghost_steps = []
     ghost_nodes = list(filter(lambda x: x.endswith("A"), list(nodemap.keys())))
     for node in ghost_nodes:
-        print(len(ghost_steps))
         nsteps = 0
         while not node.endswith("Z"):
             direction = instructions[nsteps % len(instructions)]
